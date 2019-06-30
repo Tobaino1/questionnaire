@@ -45,10 +45,11 @@
                         <p align="justify"> Instruction: Do not fill this questionnaire if you have filled it before on
                             Facebook or WhatsApp.
                         </p>
-                        <form action="#">
+                        <form action="questionnaire_submit.php">
                             <div class="form-group">
                                 <p align="center" style="color: blue"><strong>Section A: Socio-demographic
                                         characteristics</strong></p>
+
                                 <script>   function check(input) {
 
                                         var checkboxes = document.getElementsByClassName("radioCheck");
