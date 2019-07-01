@@ -89,7 +89,7 @@
 
 
                             <div class="form-group">
-                                <script>   function check(input) {
+                                <script>   function sex(input) {
 
                                         var checkboxes = document.getElementsByClassName("radioCheck");
 
@@ -109,34 +109,34 @@
                                     }</script>
                                 <p><label>2. Sex </label></p>
                                 <input type="checkbox" name="sex" value="Male" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Male
                                 <input type="checkbox" name="sex" value="Female" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Female
                                 <input type="checkbox" name="sex" value="Transgendered" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Transgendered
                                 <input type="checkbox" name="sex" value="Genderless" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Genderless
                                 <input type="checkbox" name="sex" value="Cisgender" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Cisgender
                                 <input type="checkbox" name="sex" value="Bi-sexual" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Bi-sexual
                                 <input type="checkbox" name="sex" value="Non-binary" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Non-binary
                                 <input type="checkbox" name="sex" value="Pan Gender" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Pan Gender
                                 <input type="checkbox" name="sex" value="Inter-sex" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 Inter-sex
                                 <input type="checkbox" name="sex" value="aGender" class="radioCheck"
-                                       onclick="check(this);"/>
+                                       onclick="sex(this);"/>
                                 aGender
                             </div>
 
