@@ -37,7 +37,8 @@
                     <div class="panel-body">
 
                         <p align="justify">Dear Respondent,
-                            I am a Daniel Chukwuma, a masters degree student of the Department of Sociology, lagos State
+                            I am a Anikwe Daniel Chukwuma, a masters degree student of the Department of Sociology,
+                            lagos State
                             University, Lagos, Nigeria. I am carrying out a study on the “Sociological Analysis of the
                             Emerging e-Conflict among Youth (15years to 35 years on Facebook and WhatsApp Platforms”.
                             The purpose of the study is merely for the attainment of Masters degree and all information
