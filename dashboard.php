@@ -50,7 +50,8 @@ include('session.php');
             <h1 style="color: blue" ALIGN="center"> ADMINISTRATOR'S DASHBOARD</h1>
             <h3 style="color: blue" align="center">Feed backs from Participants</h3>
             <br>
-            <a href="#" style="color: red"><strong><h4 align="left"> ----Export Report to Excel----</h4></strong> </a>
+            <a href="exportallexcel.php" style="color: red"><strong><h4 align="left"> ----Export Report to
+                        Excel----</h4></strong> </a>
 
 
             <?php
