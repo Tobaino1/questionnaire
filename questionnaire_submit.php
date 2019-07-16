@@ -263,31 +263,9 @@ VALUES
 '$possible_behavioral_disposition','$determines_your_behavioral_disposition','$how_do_know_if_person_have_e_conflict','$feel_unsafe','$things_make_you_feel_unsafe',
 '$likely_consequences','$know_anyone_suffered_from_e_conflict','$yes_what_kind_of_experience','$someone_you_can_see','$someone_you_may_see','$someone_you_met_in_past',
 '$someone_from_your_race','$someone_of_same_color','$someone_you_may_never_see','$someone_of_same_age')";
-
-
-//if($sql==1)
-//{
-//    echo'<script>alert("Inserted Successfully")</script>';
-//}
-//else
-//{
-//    echo'<script>alert("Failed To Insert")</script>';
-//}
-
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully ";
     header("Location: success.html"); // redirecting to the other page
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-
-//welcome <?php echo $_POST["names"]; ?><!-- <br>-->
-<?php //echo  $_POST["names"]; ?><!-- <br>-->
-<?php //echo  $_POST["email"]; ?><!-- <br>-->
-<?php //echo  $_POST["dob"]; ?><!--<br>-->
-<?php //echo  $_POST["image"]; ?>
-<!---->
-
-
-<!--mysqli_close($conn);-->
-<!--?>-->
