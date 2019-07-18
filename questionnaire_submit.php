@@ -6,8 +6,14 @@ $Education = $_POST['Education'];
 $religion = $_POST['religion'];
 $race = $_POST['race'];
 $any_fight = $_POST['any_fight'];
-$how_often = $_POST['how_often'];
 
+//$how_often = $_POST['how_often'];
+
+$checkboxoften = $_POST['how_often'];
+$how_often = "";
+foreach ($checkboxoften as $how_often1) {
+    $how_often .= $how_often1 . ",";
+}
 
 $checkboxfight = $_POST['kind_of_fight'];
 $kind_of_fight = "";
